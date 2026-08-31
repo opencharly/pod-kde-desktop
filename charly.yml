@@ -26,7 +26,7 @@ kde-desktop:
         candy:
             # The SDDM-free Plasma session packages (kwin_wayland + plasmashell + the
             # curated app set) are shared with the headless kde-selkies pod (R3).
-            - kde-shell
+            - '@github.com/opencharly/layer-kde-shell:v2026.239.1627'
         distro:
             # Authored under `arch:`; CachyOS inherits arch's package sections
             # (the embedded `distro:` vocabulary sets cachyos
