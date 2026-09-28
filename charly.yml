@@ -1,7 +1,5 @@
-version: 2026.232.0520
 kde-desktop:
     candy:
-        version: 2026.152.2006
         description: |
             Bare-metal KDE Plasma desktop with an SDDM display manager that boots a real GPU seat into a graphical KDE login.
             Bare-metal KDE Plasma desktop for a graphical workstation (host or VM
