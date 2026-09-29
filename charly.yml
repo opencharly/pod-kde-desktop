@@ -19,12 +19,12 @@ kde-desktop:
             entry is skipped (warn) by design. For the headless streamed KDE pod use
             selkies-kde-desktop, which composes kde-shell directly without SDDM.
         require:
-            - '@github.com/opencharly/pod-dbus:v2026.239.1555'
-            - '@github.com/opencharly/pod-pipewire:v2026.243.0508'
+            - '@github.com/opencharly/pod-dbus:v2026.272.0105'
+            - '@github.com/opencharly/pod-pipewire:v2026.272.0227'
         candy:
             # The SDDM-free Plasma session packages (kwin_wayland + plasmashell + the
             # curated app set) are shared with the headless kde-selkies pod (R3).
-            - '@github.com/opencharly/layer-kde-shell:v2026.239.1627'
+            - '@github.com/opencharly/layer-kde-shell:v2026.272.1012'
         distro:
             # Authored under `arch:`; CachyOS inherits arch's package sections
             # (the embedded `distro:` vocabulary sets cachyos
